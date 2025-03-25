@@ -35,10 +35,10 @@ def train_model(model: str, # the model path
 
 if __name__ == '__main__':
     train_model(
-        model=r"D:\Safety vest - v4.v3i.yolov11\training_results\50_epochs\weights\best.pt",
-        data=r"D:\Safety vest - v4.v3i.yolov11\data.yaml",
+        model='model_path',
+        data='.yaml_path',
         epochs=20,
         img_size=640,
-        save_path=r"D:\Safety vest - v4.v3i.yolov11\training_results",
-        experiment='50_epochs_3'
+        save_path=r"training_results_save_path",
+        experiment='experiment_name'
     )
