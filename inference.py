@@ -104,6 +104,6 @@ def object_detection(model_path: str, # model path
     print('\nDone')
 
 # Executing the function
-object_detection(model_path=r"D:\Safety vest - v4.v3i.yolov11\training_results\50_epochs_3\weights\best.pt", 
-                 test_images_path= r"D:\Safety vest - v4.v3i.yolov11\test\images", 
-                 pred_save_path= r"D:\Safety vest - v4.v3i.yolov11\testing\experiment_3")
+object_detection(model_path="model_path", 
+                 test_images_path="test_images_path", 
+                 pred_save_path="pred_save_path")
